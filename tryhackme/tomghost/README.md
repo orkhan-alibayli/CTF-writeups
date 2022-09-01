@@ -14,7 +14,7 @@ I went to http://IP:8080 in my web browser and saw default page for Apache Tomca
 -------------------------------------------------------------------------------
 ## Attack vector
 It is more likely in the Tomcat there is some vulnerability. After googling for "Apache Tomcat/9.0.30 vulnerability" we can see there is CVE-2020-1938 for the version.
-As I understood there is some sort of communication between Apache http server and Apache tomcat via port 8009 ( which appear in nmap scan ) and this communication is by sefault enabled. So by using this we can read files from web server. For more information: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938 .
+As I understood there is some sort of communication between Apache http server and Apache tomcat via port 8009 ( which appear in nmap scan ) and this communication is by default enabled. So by using this we can read files from web server. For more information: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938 .
 
 I fond exploit for the vulnerability in this github page: https://github.com/dacade/CVE-2020-1938 . After executing exploit some interesting informations appear which looks like credentials of a user.
 
