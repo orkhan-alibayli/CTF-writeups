@@ -48,3 +48,8 @@ Under http://dev.team.thm there is path traversal vulnerabilty and because of in
 
 ![image](https://user-images.githubusercontent.com/99633184/189072907-2d26b112-9d2d-46ed-a982-e62019a6ae89.png)
 
+I found this source for usefull linux config files: https://github.com/hussein98d/LFI-files . Since we are looking for ssh related files I grepped the file and found this: /etc/ssh/sshd_config :
+
+![image](https://user-images.githubusercontent.com/99633184/189334360-698d07b7-03f1-4170-8655-5d2cb8301359.png)
+
+Then I used this key file for logging in via ssh with username dale.
