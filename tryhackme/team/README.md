@@ -53,3 +53,8 @@ I found this source for usefull linux config files: https://github.com/hussein98
 ![image](https://user-images.githubusercontent.com/99633184/189334360-698d07b7-03f1-4170-8655-5d2cb8301359.png)
 
 Then I used this key file for logging in via ssh with username dale.
+
+
+For privilage escalation I could not find any way so I looked at writeups.
+
+NOTE: I think to use a tool for reconnaissance purpose is better than checking vectors manually. So I decided using a tool like linpeas ( https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS )
