@@ -26,3 +26,17 @@
    - what is wp-config.php file?  The wp-config.php file is a WordPress core file that contains the necessary information to make your WordPress website operate, including: MySQL connection settings, WordPress salts and keys, database prefix.
    - for more information: https://ithemes.com/blog/wordpress-wp-config-php-file-explained/
    - after getting password I logged in as www-data user, then found password of main user with find command based on user ownership in files.
+
+
+### Method 2: SQLi
+
+1. I tried manual sqli but I was unsuccessfull. So I tried sqlmap.
+
+-------------------------------------------
+
+
+## Privilage escalation
+
+1. run linpeas.sh script. PE vectors are:
+   - sudo -l
+   - /var/backups/script.sh .  I used GTFO bins for this vector ( https://gtfobins.github.io/ ).
