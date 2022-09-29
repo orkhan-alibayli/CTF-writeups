@@ -40,3 +40,20 @@
 1. run linpeas.sh script. PE vectors are:
    - sudo -l
    - /var/backups/script.sh .  I used GTFO bins for this vector ( https://gtfobins.github.io/ ).
+   
+   
+   
+   
+-----------------------------------------------------
+
+----------------------------------------------------
+
+
+
+# ColdBox: Easy / Tryhackme
+
+## User.txt
+
+1. I was also a wordpress related ctf as previous one. So I used wpscan again. But this time this command helped me:
+   - wpscan --url url --passwords rockyou.txt   ===>   this command automaticly detected users but I dont know how. I think it is good research theme for future.
+
