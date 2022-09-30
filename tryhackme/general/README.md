@@ -57,3 +57,14 @@
 1. I was also a wordpress related ctf as previous one. So I used wpscan again. But this time this command helped me:
    - wpscan --url url --passwords rockyou.txt   ===>   this command automaticly detected users but I dont know how. I think it is good research theme for future.
 
+
+## Root.txt
+
+1. linpeas.sh ===>   since I know password of user it is good to pass this password to script for gerring informations like output of sudo -l command:
+   - linpeas.sh -P password
+
+2. Privilage escalation vectors are:
+   - find command ===> SUID bit was set
+   - vim, chmod, ftp commands ===> these commands can be execute as sudo
+   
+3. I found respective commands for escalating privilages from here: https://gtfobins.github.io/
