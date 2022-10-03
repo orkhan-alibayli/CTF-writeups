@@ -68,3 +68,14 @@
    - vim, chmod, ftp commands ===> these commands can be execute as sudo
    
 3. I found respective commands for escalating privilages from here: https://gtfobins.github.io/
+
+
+----------------------------------------------------------------------
+
+-----------------------------------------------------------------
+
+
+# Agent T / Tryhackme
+
+1. Look server/application versions closely and search for vulnerabilities.
+
