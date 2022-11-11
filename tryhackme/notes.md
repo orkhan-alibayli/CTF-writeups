@@ -10,3 +10,15 @@
    since I had write permission in "/home/lachlan/bin" I crated script named "pkill" and this script executed by root as cron job.
    
    By the way this crontab kills ssh sessions. It was so interesting that when I try to login with ssh after successfull authentication my session was ended. So I logged in as "su lachlan".
+-----------------------------------------------------------------------------
+
+## From room IDE
+1. This can be achived via running linpeas.sh script. But for manual recon looking at these was helpfull.
+   - look at .bash_history for any interesting command which executed by user previously
+   - check which commands can be executed as sudo
+   - in this case there was a service which I could execute as sudo user:
+![image](https://user-images.githubusercontent.com/99633184/201297102-1dbe67be-9445-4404-99c7-035a807a5905.png)
+
+   - also I had write permission for /etc/systemd/system/multi-user.target.wants/vsftpd.service file so I edited this file and when service restarts my shell executes:
+![image](https://user-images.githubusercontent.com/99633184/201298665-0b201d88-2470-4168-b867-d408919911aa.png)
+
