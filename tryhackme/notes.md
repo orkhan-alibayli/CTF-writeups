@@ -29,4 +29,5 @@
 2. When new module imported to python script this module is looked for in the current directory. This can cause executig command as another user who runs script:
 
 
-![image](https://user-images.githubusercontent.com/99633184/201655243-86318968-f42b-4e0c-b60c-9a3624777a79.png)
+![image](https://user-images.githubusercontent.com/99633184/201655619-9852e6f1-6138-4967-a391-bbf8d0a66fe9.png)
+
