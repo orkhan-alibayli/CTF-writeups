@@ -22,3 +22,7 @@
    - also I had write permission for /etc/systemd/system/multi-user.target.wants/vsftpd.service file so I edited this file and when service restarts my shell executes:
 ![image](https://user-images.githubusercontent.com/99633184/201298665-0b201d88-2470-4168-b867-d408919911aa.png)
 
+----------------------------------------------------------------------------------------------------------
+## From room Library
+1. Manual username enumeration.
+   - I was able to read comments of users in the site. There was 4 user: root, www-data, anonymous and meliodas ( this user took my attention ). So I decided to bruteforce this user and I found ssh password of this user. This was the only way to take initial foothold on the webserver.
