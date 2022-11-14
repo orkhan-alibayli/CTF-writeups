@@ -26,3 +26,7 @@
 ## From room Library
 1. Manual username enumeration.
    - I was able to read comments of users in the site. There was 4 user: root, www-data, anonymous and meliodas ( this user took my attention ). So I decided to bruteforce this user and I found ssh password of this user. This was the only way to take initial foothold on the webserver.
+2. When new module imported to python script this module is looked for in the current directory. This can cause executig command as another user who runs script:
+
+
+![image](https://user-images.githubusercontent.com/99633184/201655243-86318968-f42b-4e0c-b60c-9a3624777a79.png)
